@@ -1,4 +1,7 @@
 ## JoinQuit
+
+<a id="PM5" href="https://github.com/pmmp/PocketMine-MP"><img alt="PM5" src="https://img.shields.io/badge/PMMP-PLUGINS-blue?style=for-the-badge"></a>
+
 A PocketMine-MP Plugin Send Tips When Players Enter or Leave
 
 ### Image
@@ -11,3 +14,6 @@ A PocketMine-MP Plugin Send Tips When Players Enter or Leave
 
 - [X] English
 - [X] Korean
+
+### Support API
+- [X] API 5.0.0
