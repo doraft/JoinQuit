@@ -1,4 +1,6 @@
 {
-  "JOIN_TIP_MESSAGE": "§l§a+§r {name} joined the game",
-  "QUIT_TIP_MESSAGE": "§l§c-§r {name} left the game"
+  "MESSAGES": {
+    "JOIN_TIP": "§l§a+§r {name} joined the game",
+    "QUIT_TIP": "§l§c-§r {name} left the game"
+  }
 }

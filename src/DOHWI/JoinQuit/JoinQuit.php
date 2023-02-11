@@ -33,7 +33,7 @@ final class JoinQuit extends PluginBase
             $player = $event->getPlayer();
             $playerName = $player->getName();
             $event->setJoinMessage("");
-            $message = str_replace("{name}", $playerName, $this->config->get("JOIN_TIP_MESSAGE"));
+            $message = str_replace("{name}", $playerName, $this->config->getNested("MESSAGES.JOIN_TIP"));
             $this->getServer()->broadcastTip($message);
         }, EventPriority::NORMAL, $this);
 
@@ -41,7 +41,7 @@ final class JoinQuit extends PluginBase
         {
             $playerName = $event->getPlayer()->getName();
             $event->setQuitMessage("");
-            $message = str_replace("{name}", $playerName, $this->config->get("QUIT_TIP_MESSAGE"));
+            $message = str_replace("{name}", $playerName, $this->config->getNested("MESSAGES.QUIT_TIP"));
             $this->getServer()->broadcastTip($message);
         }, EventPriority::NORMAL, $this);
     }

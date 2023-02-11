@@ -1,4 +1,6 @@
 {
-  "JOIN_TIP_MESSAGE": "§l§a+§r {name} 입장",
-  "QUIT_TIP_MESSAGE": "§l§c-§r {name} 퇴장"
+  "MESSAGES": {
+    "JOIN_TIP": "§l§a+§r {name} 입장",
+    "QUIT_TIP": "§l§c-§r {name} 퇴장"
+  }
 }
